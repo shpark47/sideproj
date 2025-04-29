@@ -1,6 +1,7 @@
 
 name: CI - Build and Lint
 
+# 조건문
 on:
   push:
     branches: [ dev, main ]

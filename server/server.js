@@ -15,7 +15,7 @@ app.get('/users', async (req, res) => {
       res.json(rows);
     } catch (err) {
       console.error(err);
-      res.status(500).son({ error: 'Database error' })
+      res.status(500).son({ error: 'Database error' })))
     }
   });
 
